@@ -1,0 +1,12 @@
+@mixin userPhoto {
+    height: 128px;
+    width: 128px;
+
+    border-radius: 50%;
+}
+
+@mixin horizontalLineShape {
+    height: 2px;
+    width: 100%;
+    background-color: $almostWhite;
+}
